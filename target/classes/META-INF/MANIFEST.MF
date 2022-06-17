@@ -1,0 +1,38 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1631806704058
+Build-Jdk: 1.8.0_292
+Built-By: ur
+Bundle-Activator: com.bi.propakSansSeparator.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: Tarnogorska 9, 42-677 Szalsza
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: URCap for ProPak Palletizing Station
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: propakSansSeparator
+Bundle-SymbolicName: com.bi.propakSansSeparator
+Bundle-Vendor: Biuro Inzynierskie Sp. z o.o.
+Bundle-Version: 1.6.0.SS
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.bi.propakSansSeparator.pickups;version="1.6.0.SS";us
+ es:="com.ur.urcap.api.contribution,com.ur.urcap.api.contribution.progra
+ m,com.ur.urcap.api.contribution.program.swing,com.ur.urcap.api.domain.d
+ ata,com.ur.urcap.api.domain.io,com.ur.urcap.api.domain.script,javax.swi
+ ng"
+Import-Package: com.ur.urcap.api.contribution;version="[1.7,2)",com.ur.u
+ rcap.api.contribution.installation;version="[1.7,2)",com.ur.urcap.api.c
+ ontribution.program;version="[1.7,2)",com.ur.urcap.api.contribution.pro
+ gram.swing;version="[1.7,2)",com.ur.urcap.api.domain;version="[1.7,2)",
+ com.ur.urcap.api.domain.data;version="[1.7,2)",com.ur.urcap.api.domain.
+ io;version="[1.7,2)",com.ur.urcap.api.domain.program;version="[1.8,2)",
+ com.ur.urcap.api.domain.program.nodes;version="[1.8,2)",com.ur.urcap.ap
+ i.domain.program.nodes.contributable;version="[1.7,2)",com.ur.urcap.api
+ .domain.program.structure;version="[1.8,2)",com.ur.urcap.api.domain.scr
+ ipt;version="[1.7,2)",com.ur.urcap.api.domain.undoredo;version="[1.7,2)
+ ",com.ur.urcap.api.domain.userinteraction;version="[1.7,2)",com.ur.urca
+ p.api.domain.userinteraction.robot.movement;version="[1.7,2)",com.ur.ur
+ cap.api.domain.value;version="[1.7,2)",com.ur.urcap.api.domain.value.jo
+ intposition;version="[1.7,2)",com.ur.urcap.api.domain.value.simple;vers
+ ion="[1.8,2)",com.bi.propakSansSeparator.pickups;version="[1.6,2)",java
+ x.swing,javax.swing.border,org.osgi.framework;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213
